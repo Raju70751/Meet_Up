@@ -23,7 +23,7 @@ class App extends Component {
   } 
 
   registerFunction = () => {
-    this.setState({isRegistered: true})
+    this.setState(prev => ({isRegistered: !prev.isRegistered}))
   } 
 
   render() {
