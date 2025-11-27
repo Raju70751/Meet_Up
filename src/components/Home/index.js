@@ -5,6 +5,7 @@ import {HomeContainer,Logo ,Button ,Description ,HomeImage , Title} from './styl
 
 
 class Home extends Component {
+
   backToRegister = () => {
     const { history } = this.props
     history.replace('/login')
@@ -27,6 +28,7 @@ class Home extends Component {
                 src='https://assets.ccbp.in/frontend/react-js/meetup/website-logo-img.png'
                 alt='website logo'
                 onClick={onLogoClick}
+                style={{cursor: 'pointer'}}
               />
               <Title style={{ color: '#a6b8fbff', fontSize: '2.5em' }}>
                 Hello {userName}
