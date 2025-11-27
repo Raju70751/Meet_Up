@@ -44,7 +44,6 @@ class Home extends Component {
               <Logo
                 src='https://assets.ccbp.in/frontend/react-js/meetup/website-logo-img.png'
                 alt='website logo'
-                onClick={onLogoClick}
               />
               <Title>Welcome to Meet Up</Title>
               <Description>Please register for a topic</Description>
